@@ -5,10 +5,10 @@ files:
    destination: /var/www/learn-app/html
 hooks:
   BeforeInstall:
-    - location: codedeploy-prepare.sh
+    - location: scripts/codedeploy-prepare.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: codedeploy-setup-app.sh
+    - location: scripts/codedeploy-setup-app.sh
       timeout: 300
       runas: root
