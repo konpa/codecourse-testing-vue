@@ -1,4 +1,4 @@
-mv /var/www/learn-app/shared/.env /var/www/learn-app/.env
+mv /var/www/learn-app/shared/.env /var/www/learn-app/html/.env
 
 cd /var/www/learn-app/html
 
