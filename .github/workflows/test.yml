@@ -32,4 +32,4 @@ jobs:
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
     - name: Execute syntax tests via PHP-CS
-      run: vendor/bin/phpcs --standard=phpcs-laravel ./
+      run: vendor/bin/phpcs --standard=ruleset.xml ./
