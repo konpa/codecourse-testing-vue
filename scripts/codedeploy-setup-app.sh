@@ -10,4 +10,6 @@ chmod -R ug+rwx ./storage ./bootstrap/cache
 
 composer install --prefer-dist --no-scripts -q -o
 
+php artisan migrate --force -q -n
+
 touch /tmp/deployment-done
